@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebDevToy</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>     
+  <link rel="stylesheet" type="text/css" href="style.css">     
+</head>
+<body>
+    <div id="header">
+      <div id="logo">WebDevToy</div>
+        <div id="buttonContainer">
+          <div class="toggleButton active" id="html">HTML</div>
+          <div class="toggleButton" id="css">CSS</div>
+          <div class="toggleButton" id="javascript">JavaScript</div>
+          <div class="toggleButton active" id="output">Output</div>
+        </div>
+      </div>
+        <div id="bodyContainer">
+          <textarea id="htmlPanel" class="panel" placeholder="Write or copy HTML here."></textarea>
+          <textarea id="cssPanel" class="panel hidden" placeholder="Write or copy CSS here."></textarea>
+          <textarea id="javascriptPanel" class="panel hidden" placeholder="JavaScript code here."></textarea>
+          <iframe id="outputPanel" class="panel"></iframe>
+        </div>
+<script type="text/javascript" src="javascript.js"></script>      
+</body>
+</html>
